@@ -1,5 +1,6 @@
 class Rook < Piece 
     include Slideable
+    
 
     def symbol
         if self.color == :white
@@ -8,6 +9,8 @@ class Rook < Piece
             return "U+265C"
         end 
     end
+
+    def 
 
     protected 
     def move_dirs
